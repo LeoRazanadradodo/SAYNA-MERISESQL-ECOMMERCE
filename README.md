@@ -1,6 +1,6 @@
 # SAYNA-MERISESQL-ECOMMERCE
 
-##Relations :
+#Relations :
 Client peut passer plusieurs Commandes, mais chaque Commande est passée par un seul Client (Relation 1-N entre Client et Commande).
 Un Utilisateur/Administrateur peut gerer plusieurs Commandes, mais chaque Commande ne peut être gerer que par un seul Utilisateur/Administrateur (Relation 1-N entre Utilisateur/Administrateur et Commande).
 Une Commande peut contenir plusieurs Produits, et un Produit peut être contenu dans plusieurs Commandes (Relation N-M entre Commande et Produit via Détail de la commande).
